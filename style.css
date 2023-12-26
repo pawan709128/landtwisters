@@ -21,6 +21,8 @@
   width: 33.33%;
   align-items: center;
   padding: 0 20px;
+  
+  
 }
 
 .box4{
@@ -82,10 +84,15 @@ p {
 .top_bar2 {
   text-align: right;
 }
-
+.menu_bar{
+  position:sticky;
+  top: 0;
+  background-color: white;
+}
 .mylogo_img {
   height: 80px;
   width: 150px;
+  
 }
 
 
@@ -93,7 +100,8 @@ p {
 .template_bar {
   background-image: url(main-bg.jpeg);
   height: 100vh;
-  background-repeat: no-repeat;
+  width: 100%;
+  background-repeat:no-repeat;
   background-size: cover;
 }
 
@@ -145,6 +153,15 @@ background-color: #45a049;
 .my_img {
 height: 100%;
 width: 100%;
+}
+.my_form{
+ display: flex;
+ justify-content: center;
+ text-align: center;
+}
+.my_form1{
+  width: 50%;
+  
 }
 /*footer  */
 
@@ -267,9 +284,11 @@ p {
 
 
 
+
 .menu_bar a:hover {
-  color: blue;
-  background-color: orangered;
+  color: rgb(249, 249, 249);
+  background-color: #dc3545;
+  
 }
 
 .template_bar {
